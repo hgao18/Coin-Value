@@ -62,5 +62,7 @@ EOS = output("EOS",results)
 XRP = output("XRP",results)
 LTC = output("LTC",results)
 coins = [ETH,BNB,TRX,BCH,EOS,XRP,LTC]
+
+#example
 integrate(coins,symbols)
 drawing_only(BTC,"BTC")
